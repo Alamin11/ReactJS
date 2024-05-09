@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.color-picker-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  font-size: 3rem;
+  color: hsl(30, 10%, 40%);
+  margin-bottom: 50px;
+
+}
+
+.color-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 300px;
+  border: 3px solid hsl(0, 0%, 80%);
+  border-radius: 20px;
+  /* padding: 20px; */
+  margin-bottom: 20px;
+  transition: .25s ease;
+}
+
+.color-container p {
+  font-size: 1.5rem;
+  color: hsl(0, 0%, 79%);
+}
+
+label {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: hsl(30, 7%, 51%);
+  margin-bottom: 20px;
+}
+
+input[type="color"] {
+  width: 100px;
+  height: 50px;
+  padding: 3px;
+  border-radius: 10px;
+  border: 3px solid hsl(0, 0%, 60%);
+
+}
