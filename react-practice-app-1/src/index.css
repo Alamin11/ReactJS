@@ -24,9 +24,7 @@
   font-family: Arial, Helvetica, sans-serif;
   text-align: justify;
   color: hsl(0, 0%, 30%);
-  max-width: 50ch;
-  overflow: hidden;
-  white-space: nowrap;
+  max-width: 25ch;
 }
 /* .card .click-btn{
   border: none;
