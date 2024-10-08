@@ -24,4 +24,16 @@
   font-family: Arial, Helvetica, sans-serif;
   text-align: justify;
   color: hsl(0, 0%, 30%);
+  max-width: 50ch;
+  overflow: hidden;
+  white-space: nowrap;
 }
+/* .card .click-btn{
+  border: none;
+  background-color: hsla(170, 69%, 31%, 0.7);
+  color: hsl(0, 0%, 100%);
+  padding: 10px 10px;
+  border-radius: 5px;
+ 
+  float: right;
+} */
