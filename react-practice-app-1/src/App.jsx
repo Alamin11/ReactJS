@@ -9,11 +9,12 @@ function App(){
   return (
     <>
     <Header />
-    <Food />
     <UserGreeting 
       isLoggedIn={true} 
       userName="Al amin"
     />
+    <Food />
+    
     <Card 
       title='Butterfly' 
       src={cardDP} 
