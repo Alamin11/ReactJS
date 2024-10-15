@@ -4,6 +4,7 @@ import Food from './Food.jsx'
 import Card from './Card.jsx'
 import cardDP from './assets/butterfly150.jpg'
 import UserGreeting from './UserGreetings.jsx'
+import List from './List.jsx'
 import React from 'react';
 function App(){
   return (
@@ -13,7 +14,8 @@ function App(){
       isLoggedIn={true} 
       userName="Al amin"
     />
-    <Food />
+    {/* <Food /> */}
+    <List/>
     
     <Card 
       title='Butterfly' 
