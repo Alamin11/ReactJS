@@ -103,3 +103,17 @@ body{
   color: hsl(0, 0%, 100%);
   text-align: center;
 }
+.list-category{
+  font-size: 2rem;
+  color: #fff;
+  border: 1px solid #555;
+  text-align: center;
+  background-color: #333;
+  padding: 10px;
+}
+.list-item{
+  font-size: 1.5em;
+  color: #333;
+  list-style: none;
+  text-align: center;
+}
