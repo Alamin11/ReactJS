@@ -45,7 +45,7 @@ const Types = () => {
           60% off
         </h1>
         <h1 className="text-4xl text-end text-white font-semibold">
-          Wireless
+          Wired
           <br /> Devices
         </h1>
         <button className="bg-themeYellow text-black font-semibold px-6 py-3 rounded-lg uppercase">
@@ -62,8 +62,8 @@ const Types = () => {
           60% off
         </h1>
         <h1 className="text-4xl text-end text-white font-semibold">
-          Wireless
-          <br /> Devices
+          Personal
+          <br /> Gadgets
         </h1>
         <button className="bg-themeYellow text-black font-semibold px-6 py-3 rounded-lg uppercase">
           shop now
