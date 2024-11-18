@@ -18,7 +18,7 @@ const Services = () => {
   return (
     <section
       id="services"
-      className="w-full px-5 lg:px-20 pb-[80px] pt-[0px] grid grid-cols-1 lg:grid-cols-4 justify-center items-center gap-10"
+      className="w-full px-5 lg:px-20 pb-[80px] pt-[0px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-center items-center gap-10"
     >
       <div
         data-aos="zoom-in"
