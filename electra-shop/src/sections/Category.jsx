@@ -35,7 +35,7 @@ const Category = () => {
           view all
         </button>
       </div>
-      <div className="w-full lg:w-[85%] grid grid-cols-1 lg:grid-cols-5 justify-center items-start  gap-10">
+      <div className="w-full lg:w-[85%] grid grid-cols-1 md:grid-cols-2 md:gap-20 lg:grid-cols-5 justify-center items-start  gap-10">
         <div
           data-aos="zoom-in"
           data-aos-delay="100"
