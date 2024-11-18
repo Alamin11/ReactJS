@@ -36,7 +36,7 @@ const ProductsGrid = () => {
       <div
         data-aos="zoom-in"
         data-aos-delay="300"
-        className="w-full grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 justify-center items-center gap-10 mt-10"
+        className="w-full grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 justify-center items-center gap-10 mt-10"
       >
         {products.map((item, index) => (
           <div
