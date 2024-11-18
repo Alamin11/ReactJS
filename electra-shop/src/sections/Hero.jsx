@@ -27,12 +27,12 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="w-full flex justify-center items-center lg:h-[700px] h-[600px]"
+      className="w-full flex justify-center items-center lg:h-[700px] h-[600px] overflow-x-hidden"
     >
       <Slider className="w-full {...settings}">
         <div>
           <div
-            className="w-full lg:px-20 px-5 lg:h-[700px] h-[600px] flex flex-col justify-center items-start gap-10 bg-cover bg-center no-repeate"
+            className="w-full lg:px-20 px-5 lg:h-[700px] h-[600px] flex flex-col justify-center items-start gap-10 bg-cover bg-center"
             style={{ backgroundImage: `url(${dslr})` }}
           >
             <h1
