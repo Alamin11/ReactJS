@@ -211,12 +211,33 @@ const Footer = () => {
               Subscribe Newsletter
             </h1>
             <div>
-              <input type="email" />
+              <input
+                type="email"
+                placeholder="Enter valid email"
+                className="lg:w-auto w-full capitalize px-6 py-3 rounded-l-lg"
+              />
+              <button className="bg-themePurple w-full lg:w-auto text-white hover:bg-themeYellow hover:text-black px-6 py-3 rounded-r-lg font-semibold uppercase">
+                Submit
+              </button>
             </div>
+          </div>
+          <div className="lg:w-[20%] w-full ">
+            <p className="text-gray-500 lg:text-end text-center">
+              2024 Powerd by Prowesd IT
+            </p>
           </div>
         </div>
       </div>
       {/* 3rd box ends here */}
+      {/* scroll to top bottom */}
+      <div
+        id="icon-box"
+        className="bg-themePurple text-white p- rounded-full hover:bg-themeYellow hover:text-black cursor-pointer fixed lg:bottom-6 right-6 bottom-6"
+      >
+        <Link to="hero" spy={true} offset={-100} smooth={true}>
+          <FaArrowUp className="w-[35px] h-[35px]" />
+        </Link>
+      </div>
     </div>
   );
 };
